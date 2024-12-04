@@ -7,6 +7,7 @@ A SaaS platform designed to optimize renewable energy generation, distribution, 
 ## Features
 
 ### Key Features of the Platform:
+
 - **Renewable Energy Mapping**: GIS-based visualization for solar/wind potential.
 - **Microgrid Design & Management**: Tools to simulate and optimize microgrid setups.
 - **Investor Portal**: Financial models and compliance tracking.
@@ -30,12 +31,14 @@ Ensure you have the following installed before setting up the project:
 ## Setup and Installation
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-repo-name/energy-access-optimizer.git
 cd energy-access-optimizer
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 npm install
 # or
@@ -43,6 +46,7 @@ yarn install
 ```
 
 ### 3. Environment Variables
+
 Create a `.env` file in the root directory with the following variables:
 
 ```env
@@ -52,11 +56,13 @@ REACT_APP_IOT_API_URL=http://your-iot-endpoint.com
 ```
 
 ### 4. Start the Development Server
+
 ```bash
 npm start
 # or
 yarn start
 ```
+
 This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ---
@@ -98,7 +104,7 @@ energy-access-optimizer/
 │   │   ├── useAuth.ts          # Authentication hook
 │   │   └── useTheme.ts         # Theme switching hook
 │   ├── layouts/                # Layout wrappers (e.g., admin, investor, public)
-│   │   ├── AdminLayout.tsx     
+│   │   ├── AdminLayout.tsx
 │   │   └── PublicLayout.tsx
 │   ├── pages/                  # Top-level pages (route-based structure)
 │   │   ├── HomePage.tsx        # Home/landing page
@@ -157,12 +163,14 @@ energy-access-optimizer/
 ## Technology Stack
 
 ### Front End
+
 - **React** with **TypeScript**: For building user interfaces.
 - **Material-UI (MUI)**: For pre-built UI components and theming.
 - **Redux Toolkit**: For state management.
 - **Axios**: For API calls.
 
 ### Back End (Planned Integration)
+
 - **Node.js** with **Express**: API layer for managing data and business logic.
 - **Sequelize** with **PostgreSQL**: For data persistence and management.
 
@@ -189,12 +197,12 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 For questions or feedback, please reach out to:
 
-- **Name**: Your Name  
-- **Email**: your.email@example.com  
-- **GitHub**: [@yourusername](https://github.com/yourusername)  
+- **Name**: Your Name
+- **Email**: your.email@example.com
+- **GitHub**: [@yourusername](https://github.com/yourusername)
 
 Let’s build a brighter, renewable-powered future!
 
---- 
+---
 
 This README can be customized further based on project-specific details as development progresses.
